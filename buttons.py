@@ -1,9 +1,3 @@
-import tkinter as tk
-from main import add_to_calculation
-from main import root
-from main import evaluate_calculation
-from main import clear_field
-
 
 btn_1 = tk.Button(root, text="1", command=lambda: add_to_calculation(1), width=5, font=("Arial", 14))
 btn_1.grid(row=2, column=1)
